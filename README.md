@@ -18,5 +18,8 @@
 
 #### Sections and subsections are beautifully indented.
 
+##### If you want to disable the automatic reload of the table every time you save your tex file, then just remove the following line from your .vimrc file:
+
+autocmd Bufwrite *.tex call timer_start(200, { tid -> execute('LatexTree')})
 
 
