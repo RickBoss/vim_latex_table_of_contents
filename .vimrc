@@ -1,4 +1,3 @@
-"Latex Related
 
 :command LatexTree call LatexTree() | lopen
 
