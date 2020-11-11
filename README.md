@@ -1,0 +1,1 @@
+# vim_latex_table_of_contents
